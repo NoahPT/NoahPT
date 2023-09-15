@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock Salt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <a href="new.html">Music</a>
+    <h1>The top albums for each genra</h1>
+    <img src="download-(10).jpg">
+    <h5> The Number one album is called Rumours by fleetwood mac. They sold 10 million copies in less than one mont.</h5>
+    <img src="The_Eminem_Show.jpg">
+    <h5>The top rap album is Eminem's The Eminem Show. This album has sold more than 27 mil copies worldwide.</h5>
+    <img src="download-(11).jpg">
+    <h5> The top country album is called Come On Over by Shania Twain. This album has sold over 40 million copies world wide</h5>
+    <img src="download-(12).jpg">
+    <h5> The top pop album of all time is Songs In The Key Of Life by Taylor swift. This album has sold 10 million copies.</h5>
+    <img src="download-(13).jpg">
+    <h5> The top selling album of all time is Thriller by Micheal Jackson. This album has sold over 70 million copies world wide</h5>
+
+
+
+    <hr>
+  </body>
+</html>
