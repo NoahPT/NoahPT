@@ -1,25 +1,52 @@
-<html>
+<HTML>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rock Salt&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <a href="new.html">Music</a>
-    <h1>The top albums for each genra</h1>
-    <img src="download-(10).jpg">
-    <h5> The Number one album is called Rumours by fleetwood mac. They sold 10 million copies in less than one mont.</h5>
-    <img src="The_Eminem_Show.jpg">
-    <h5>The top rap album is Eminem's The Eminem Show. This album has sold more than 27 mil copies worldwide.</h5>
-    <img src="download-(11).jpg">
-    <h5> The top country album is called Come On Over by Shania Twain. This album has sold over 40 million copies world wide</h5>
-    <img src="download-(12).jpg">
-    <h5> The top pop album of all time is Songs In The Key Of Life by Taylor swift. This album has sold 10 million copies.</h5>
-    <img src="download-(13).jpg">
-    <h5> The top selling album of all time is Thriller by Micheal Jackson. This album has sold over 70 million copies world wide</h5>
-<img src="
+    <title>My Very Own Page!</title>
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <style>
+       body {
+         font-size: 20px;
+         color: navy;
+         background: #88aaff;
+         text-align: center;
+         font-size: 25px;
 
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 200px 1fr 1fr 50px;
+         gap: 10px;
+         }
 
+       div {
+         align-content: center;
+         }
 
-    <hr>
-  </body>
-</html>
+       .title {
+          grid-row-start: 1;
+          grid-row-end: 2;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          }
+
+      .picture {
+          grid-row-start: 2;
+          grid-row-end: 3;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          }
+
+      .picture2 {
+          grid-row-start: 3;
+          grid-row-end: 4;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          }
+
+      .content {
+          grid-row-start: 2;
+          grid-row-end: 4;
+          grid-column-start: 2;
+          grid-column-end: 4;
+          background: #5588dd;
+          border: 2px white solid;v
